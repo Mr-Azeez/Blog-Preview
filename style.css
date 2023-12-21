@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4d04e;
+    color: #121212;
+    font-family: 'Figtree', sans-serif;
+    font-size: 1rem;
+}
+.blog-card {
+    width: 350px;
+    height: 500px;
+    margin-inline: auto;
+    margin-block: 80px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 8px 8px #121212;
+}
+.blog-card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 15px 15px #121212;
+    transition-property: box-shadow, transform;
+    transition-duration: 0.5s, 0.5s;
+}
+.illustration-image {
+    width: 100%;
+    margin: auto;
+    margin-block-end: 20px;
+}
+.illustration-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+.text-block {
+    font-weight: bold;
+    background-color: #f4d04e;
+    padding: 5px;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+.text-block:hover {
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: font-size 0.5s ease-in-out;
+}
+.manufacture-date {
+    margin-block: 15px;
+}
+h2 {
+    margin-block: 15px;
+}
+h2:hover {
+    cursor: pointer;
+    color: #f4d04e;
+}
+.language-info {
+    color: #808080;
+}
+.creator-info {
+    display: flex;
+    margin-block: 15px;
+}
+.creator-info .creators-name {
+    padding-block: 5px;
+}
+.creator-info .creators-name:hover {
+    text-decoration: underline;
+    color: #f4d04e;
+}
+.creator-info img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #121212;
+    border-radius: 100%;
+    margin-inline-end: 10px;
+}
+.creator-info img:hover {
+    cursor: pointer;
+    border: 2px solid #f4d04e;
+    rotate: 360deg;
+    transition: linear 0.5s;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: #808080;
+    text-decoration: none;
+}
+.attribution a:hover {
+    text-decoration: underline;
+    color: #f4d04e;
+}
